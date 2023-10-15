@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lieferando</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="render(),shoppingcartrender()">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1f7dbd4be2.js" crossorigin="anonymous"></script>
+    <!-- header von lieferando -->
+    <header>
+        <div class="headerinfo">
+            <div class="headerposition">
+                <img class="lieferandoicon"
+                    src="pics.img/407862-Lieferando-Logo-Orange-Primary-Hor-RGB-01-4f2092-original-1637232254.png"
+                    alt="">
+                <h2>Speisekarte</h2>
+                <div class="togglemenu">
+                    <img class="flag" src="pics.img/deutschland.png" alt="">
+                    <img class="menu" src="pics.img/menu.png" alt="">
+                </div>
+            </div>
+    </header>
+    <!-- backgroundimage von kesar -->
+    <div class="hintergrund">
+
+    </div>
+    <!-- resturant informationen bewertungen  -->
+    <div class="resturantlayout" id="resturantInformation">
+        `<div class="PositionHeadline">
+            <div class="kesar">
+                <img src="pics.img/Kesar-Logo.png" alt="">
+            </div>
+            <div class="likebutton">
+                <img class="infobuttonlayout" src="pics.img/information.png" alt="">
+                <button class="isnotliked" id="heart" onclick="likeSend()"><i class="fa-solid fa-heart"></i></button>
+            </div>
+            <h1>Kesar Resturant Sweets</h1>
+            <div class="starsPosition">
+                <div class="Bewertung">
+                    <img class="stars" src="pics.img/sterne.png" alt="">
+                    <p class="startext">1,4k Bewertungen</p>
+
+                </div>
+                <div class="layoutimg">
+                    <img src="pics.img/icons8-weidenkorb-50.png" alt="">
+                    <p> Min 20€ </p>
+                    <img src="pics.img/lieferservice.png" alt="">
+                    <p> lieferkosten 2€ </p>
+                </div>
+            </div>
+            <p>Bei diesem Restaurant kannst du Stempel sammeln. Stelle beim Bestellabschluss bitte sicher, dass du dich
+                für unseren Newsletter angemeldet hast, um deine Stempel per E-Mail zu erhalten.Gerechnet wird der Preis
+                Pro KG!!</p>
+        </div>
+    </div>
+    <!-- baklava bestellungen -->
+    <h2 class="celeb">Beliebt</h2>
+    <div class="menuselection" id="menuselection">
+    </div>
+    <!-- künefe bestellungen -->
+    <h2 class="künefeFont">Künefe Türkische spezialität</h2>
+    <div class="künefe">
+    </div>;
+    <div class="menuselection" id="künefesweets"></div>
+    <!-- bestell bezahlungs menü -->
+    <div id="delievercontainer" class="DeliverFirstContainer d-none">
+        <div id="centerback" class="centerback paymentvissible2" onclick="hidepayment()"><img class="paymentback paymentvissible" id="backtomenu" src="pics.img/icons8-back-50.png"
+                alt=""></div>
+        <div class="DeliverSecondContainer">
+            <div id="orders" class="DeliverOrder">
+                <div class="placeholderText">
+                    <img src="pics.img/icons8-weidenkorb-50.png" alt="">
+                    <h2>Fülle deinen Warenkorb</h2>
+                    <p> Füge einige leckere Gerichte aus der Speisekarte hinzu und bestelle dein Essen.</p>
+                </div>
+
+            </div>
+
+            <div id="finalpayment" class="OrderPayment">
+                <div class="orderplaceholder">
+                    <img class="bike" src="pics.img/lieferservice.png" alt="">
+                    <p> Lieferung ab 17 Uhr</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div onclick="showpayment()"><img class="paymentphone" src="pics.img/icons8-weidenkorb-50.png" alt=""></div>
+</body>
+
+</html>

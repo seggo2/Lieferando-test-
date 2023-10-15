@@ -1,0 +1,500 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto';
+
+}
+
+
+
+.lieferandoicon {
+    width: 200px;
+
+}
+
+.togglemenu img {
+    width: 25px;
+    padding: 10px;
+}
+
+.flag:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+.menu:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+.headerinfo {
+    background-color: white;
+    box-shadow: 0 0 0 2px silver;
+    position: relative;
+    z-index: 999;
+
+}
+
+.headerposition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hintergrund {
+    background-image: url("pics.img/maxresdefault.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.PositionHeadline {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 500px;
+}
+
+.starsPosition {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.stars {
+    height: 65px;
+}
+
+.startext:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.resturantlayout {
+    box-shadow: 0 0 0 2px silver;
+}
+
+.layoutimg img {
+    height: 15px;
+
+}
+
+.layoutimg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.layoutimg p {
+    font-size: 12px;
+}
+
+.Bewertung {
+    display: flex;
+    align-items: center;
+    height: 15px;
+}
+
+.kesar img {
+    position: absolute;
+    top: 330px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+
+}
+
+.likebutton img {
+
+    height: 40px;
+}
+
+.likebutton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    right: 500px;
+    top: 380px;
+
+}
+
+.isliked {
+    color: red;
+    font-size: 25px;
+    padding: 3px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.isliked:hover {
+    cursor: pointer;
+
+}
+
+.isnotliked {
+    width: 40px;
+    height: 40px;
+    color: gray;
+    font-size: 40px;
+    padding: 3px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.isnotliked:hover {
+    cursor: pointer;
+
+}
+
+.infobuttonlayout:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+.infomeals {
+    height: 20px;
+    padding: 10px;
+}
+
+.mealspositioning {
+    margin-left: 300px;
+    margin-right: 500px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+
+
+}
+
+.mealspositioning:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+
+}
+
+.celeb {
+    margin-left: 300px;
+    margin-right: 500px;
+    font-size: 35px;
+}
+
+.finetuning {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #F5F3F1;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.nameofmeal {
+    display: flex;
+    align-items: center;
+
+}
+
+.description {
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+.pricetag {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.künefe {
+    background-image: url("pics.img/kunefe-2.jpg");
+    margin-left: 300px;
+    margin-right: 500px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.künefeFont {
+    margin-left: 300px;
+    margin-right: 500px;
+    font-size: 35px;
+}
+
+.DeliverFirstContainer {
+    background-color: white;
+    box-shadow: 0 0 0 2px silver;
+    z-index: 998;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.placeholderText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    top: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.orderplaceholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.bike {
+    width: 50px;
+    height: 50px;
+}
+
+.paymentdescription {
+    text-align: center;
+    z-index: 998;
+    border-bottom: 2px solid orange;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.finalpayment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 60px;
+}
+
+.DeliverSecondContainer {
+    z-index: 998;
+    position: relative;
+    height: 100vh;
+    width: 450px;
+}
+
+.DeliverOrder {
+    position: relative;
+    z-index: 998;
+    height: 70%;
+    overflow-y: scroll;
+
+}
+
+.OrderPayment {
+    text-align: center;
+    box-shadow: 0 0 0 2px silver;
+    z-index: 998;
+    height: 30%;
+    position: sticky;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.paybutton {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: orange;
+    border: 0px;
+    width: 300px;
+}
+
+.paybutton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 11px;
+}
+
+.deletebtn {
+    height: 30px;
+    background-color: orange;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.deletebtn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.paymentphone {
+    visibility: hidden;
+    position: fixed;
+    right: 20px;
+    top: 50vh;
+    background-color: orange;
+    border-radius: 10px;
+    width: 35px;
+}
+
+.paymentphone:hover {
+    cursor: pointer;
+    padding: 1px;
+}
+.centerback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:20px ;
+    border-bottom: 3px solid black;
+   
+}
+.paymentback{
+    background-color: orange;
+    border: 1px solid black;
+}
+.paymentback:hover{
+    cursor: pointer;
+}
+.paymentvissible{
+    display: none;
+}
+.paymentvissible2{
+    display: none;
+}
+@media(max-width:1250px) {
+    .likebutton {
+        display: none;
+    }
+
+    .PositionHeadline {
+        margin-left: 0px;
+    }
+
+    .mealspositioning {
+        margin-left: 0px;
+    }
+
+    .celeb {
+        margin-left: 0px;
+    }
+
+    .künefe {
+        margin-left: 0px;
+    }
+
+    .künefeFont {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:1000px) {
+    .d-none {
+        display: none;
+    }
+    .paymentphone {
+        visibility: visible;
+      }
+
+    .PositionHeadline {
+        margin-right: 250px;
+    }
+
+    .mealspositioning {
+        margin-right: 250px;
+    }
+
+    .celeb {
+        margin-right: 250px;
+    }
+
+    .künefe {
+        margin-right: 250px;
+    }
+
+    .künefeFont {
+        margin-right: 250px;
+    }
+
+    .paybutton {
+        width: 200px;
+    }
+}
+
+@media(max-width:700px) {
+    .künefeFont {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+
+    .PositionHeadline {
+        margin-right: 80px;
+    }
+
+    .mealspositioning {
+        margin-right: 80px;
+    }
+
+    .celeb {
+        margin-right: 80px;
+    }
+
+    .künefe {
+        margin-right: 80px;
+    }
+
+    .künefeFont {
+        margin-right: 80px;
+        font-size: 15px;
+    }
+
+    .lieferandoicon {
+        width: 100px;
+    }
+
+    .togglemenu img {
+        display: none;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .nameofmeal {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+}
